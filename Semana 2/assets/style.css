@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+p {
+  margin-bottom: 20px;
+}
+
+img{
+  margin-left: 140px;
+}
+
+.wrapper {
+  width: 80%;
+  margin: auto;
+  overflow:hidden;
+  display: flex;
+  justify-content: center;
+}
+header {
+  background: pink;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
+
+nav {
+  float: left; /* Desplazamos el nav hacia la izquierda */
+}
+nav ul {
+  list-style: none;
+  overflow: hidden; /* Limpiamos errores de float */
+}
+nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+nav ul li a {
+  display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+  padding: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+nav ul li:hover {
+  background: #ad3e9e;
+}
+
+
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assortment-of-pieces-of-cake.jpg");
+
+  /* Set a specific height */
+  height: 1000px;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.container-cards-cake{
+  width: auto;
+  display: flex;
+  justify-content: space-around;
+  height: 500px;
+}
+  
+.card-cake{
+  padding-top: 20px;
+  height: auto;
+  width: 400px;
+  border: 1px solid red;
+  background-color: black;
+}
+
+footer{
+  height: 20px;
+  background-color: pink;
+}

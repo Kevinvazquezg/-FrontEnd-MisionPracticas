@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  p {
+    margin-bottom: 20px;
+  }
+  
+  img{
+    margin-left: 140px;
+  }
+  
+  .wrapper {
+    width: 80%;
+    margin: auto;
+    overflow:hidden;
+    display: flex;
+    justify-content: center;
+  }
+  header {
+    background: pink;
+    width: 100%;
+ 
+  }
+  
+  nav {
+    float: left; /* Desplazamos el nav hacia la izquierda */
+  }
+  nav ul {
+    list-style: none;
+    overflow: hidden; /* Limpiamos errores de float */
+  }
+  nav ul li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  nav ul li a {
+    display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+  }
+  nav ul li:hover {
+    background: #ad3e9e;
+  }
+
+  
+  .galery{
+    margin: -20px;
+    padding: 30px;
+    background-color: pink;
+    color: white;
+  }
+
+  .container-cards-cake{
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+  }
+    
+  .card-cake{
+    margin-bottom: 20px;
+    height: auto;
+    width: 400px;
+    background-color: white;
+  }
+
+  .cake > img{
+    margin: auto;
+    width: 200px;
+    height: 200px;
+      
+  }
+  .cake{
+      margin: 20px;
+      display: block;
+      color: black;
+      text-align: center;
+  }
+
+.container-form{
+    margin: -20px;
+    height: auto;
+    background-color: pink;
+}
+
+  .form-order{
+    background-color: pink;
+    margin: auto;
+    margin-top: 20px;
+    padding: 30px;
+    width: 500px;
+    border: 3px solid #ad3e9e;
+    padding: 50px;
+  }
+
+  .btn-primary{
+      background-color: #ad3e9e!important;
+  }
+ 
+  .container-pastelero{
+      height: auto;
+      background-color: pink;
+  }
